@@ -709,6 +709,7 @@ button:hover{
         align-items: center;
         background: #ddae3f;
         transition: top 0.5s ease;
+        display: none;
     }
     nav .mainMenu .closeMenu {
         display: block;
