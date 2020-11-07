@@ -1,11 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'helvetica';
+    font-family: 'helvetica', sans-serif;
 }
 
 h2{
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
 }
 
 body{
@@ -49,7 +49,7 @@ nav{
 .logo > div > p{
     font-size: 26px;
     font-weight: 600;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Menu */
@@ -161,7 +161,7 @@ button:hover{
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     font-weight: bolder;
     margin: 50px 0;
