@@ -816,3 +816,12 @@ button:hover{
         margin: 0 30px;
     }
 }
+
+@media(max-height: 800px){
+    #competences{
+        margin-top: 190px;
+    }
+    .dev-skills > .title{
+        margin-bottom: -20px;
+    }
+}
