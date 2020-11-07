@@ -719,6 +719,8 @@ button:hover{
     }
     nav .openMenu {
         display: block;
+        /* Suprime le retour clique bleu sur mobile */
+        -webkit-tap-highlight-color: transparent;
     }
     nav .mainMenu li a{
         background: none;
