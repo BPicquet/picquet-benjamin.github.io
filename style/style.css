@@ -737,6 +737,12 @@ button:hover{
 }
 
 @media(max-width: 600px){
+    .dev-skills > .title{
+        margin-bottom: -20px;
+    }
+    #competences{
+        margin-top: 70px;
+    }
     .logo{
         margin-right: 15px;
     }
@@ -817,11 +823,23 @@ button:hover{
     }
 }
 
-@media(max-height: 800px){
+@media(max-width: 450px){
     #competences{
-        margin-top: 190px;
+        margin-top: 180px;
     }
-    .dev-skills > .title{
-        margin-bottom: -20px;
+}
+
+@media(max-width: 400px){
+    .home-content > div:nth-child(1){
+        margin-top: 90px;
+    }
+    #competences{
+        margin-top: 200px;
+    }
+    .container-download-cv > h1{
+        font-size: 1.2rem;
+    }
+    .footer-social a img{
+        margin: 0 20px;
     }
 }
