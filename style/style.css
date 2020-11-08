@@ -743,7 +743,7 @@ button:hover{
         margin-bottom: -20px;
     }
     #competences{
-        margin-top: 70px;
+        margin-top: 160px;
     }
     .logo{
         margin-right: 15px;
@@ -843,5 +843,23 @@ button:hover{
     }
     .footer-social a img{
         margin: 0 20px;
+    }
+}
+
+@media(max-height: 650px){
+    #competences{
+        margin-top: 250px;
+    }
+}
+
+@media(max-height: 550px){
+    #competences{
+        margin-top: 300px;
+    }
+}
+
+@media(max-height: 500px){
+    #competences{
+        margin-top: 350px;
     }
 }
