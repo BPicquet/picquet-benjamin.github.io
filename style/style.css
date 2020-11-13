@@ -521,6 +521,10 @@ button:hover{
     font-size: 20px;
 }
 
+.modal a{
+    text-decoration: none;
+}
+
 .modal > div{
     display: flex;
     justify-content: space-around;
