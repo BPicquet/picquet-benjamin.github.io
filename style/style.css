@@ -460,8 +460,8 @@ button:hover{
 }
   
 .button {
-    width: 450px;
-    height: 350px;
+    width: 490px;
+    height: 390px;
     background: white;
     margin: 15px;
     cursor: pointer;
@@ -483,10 +483,10 @@ button:hover{
     background-image: url("./img/projects/project2.jpg");
 }
 .button-project3{
-    
+    background-image: url("./img/projects/project3.png");
 }
 .button-project4{
-    
+    background-image: url("./img/projects/project4.png");
 }
   
 .overlay {
