@@ -301,7 +301,7 @@ button:hover{
     grid-template-areas: 
         "hex1 . hex3 .  "
         ". hex2  . hex5"
-        ". . hex4 .";
+        "hex6 . hex4 .";
     grid-gap: 1px;
 }
 .hex1-dev, .hex1-graphic{
@@ -337,6 +337,13 @@ button:hover{
 }
 .hex5-dev > img{
     width: 80px;
+}
+
+.hex6-dev{
+    grid-area: hex6;
+}
+.hex6-dev > img{
+    width: 55px;
 }
 
 .hexagon > img{
@@ -676,7 +683,7 @@ button:hover{
 
 @media screen and (max-width:1100px){
     .about-me{
-        margin-bottom: 250px;
+        height: auto;
     }
     .content-about-me{
         flex-direction: column;
@@ -693,7 +700,7 @@ button:hover{
     .hexagon-content{
         grid-template-columns: 130px 130px 130px;
         grid-template-areas:
-            ". . hex1"
+            "hex6 . hex1"
             ". hex3 ."
             "hex2  . hex5"
             ". hex4 .";
@@ -805,6 +812,7 @@ button:hover{
         margin-right: 20px;
         grid-template-columns: 130px 130px;
         grid-template-areas:
+            "hex6 ."
             ". hex1"
             "hex3 ."
             ". hex2"
