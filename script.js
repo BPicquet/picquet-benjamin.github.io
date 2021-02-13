@@ -8,6 +8,8 @@ var $overlay = document.querySelector(".overlay");
 
 var $menuProjects = document.querySelectorAll('.span-menu-projects')
 
+var imgParallax = document.querySelector('.container-download-cv')
+
 /* Menu burger */
 openMenu.addEventListener('click',show);
 closeMenu.addEventListener('click',close);
@@ -55,5 +57,10 @@ $menuProjects.forEach(buttonProjects => {
   })
 })
 
+/* Parallax effect */
+window.addEventListener('scroll', ()=>{
+  var valueWindowScroll = window.scrollY;
+  imgParallax.style.backgroundPositionY = valueWindowScroll * 0.5 + 'px';
+})
 
 

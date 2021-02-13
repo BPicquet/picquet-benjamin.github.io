@@ -93,7 +93,20 @@ nav .mainMenu .closeMenu , .icons i{
     text-transform: uppercase;
     letter-spacing: -10px;
     margin: 120px 0 0 160px;
+    animation: 2s infinite ease-in-out opacity-developer;
 }
+
+@keyframes opacity-developer{
+    0% {
+      opacity: 0.7;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+        opacity: 0.7;
+      }
+  }
 
     /* Home-content */
 .home-content{
